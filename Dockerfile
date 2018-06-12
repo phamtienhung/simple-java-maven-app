@@ -1,5 +1,5 @@
 FROM java:7
-COPY . /usr/src/myapp
+COPY /target/my-app-1.0-SNAPSHOT.jar /usr/src/myapp/my-app-1.0-SNAPSHOT.jar
 WORKDIR /usr/src/myapp
-RUN java -jar ./target/my-app-1.0-SNAPSHOT.jar
+RUN java -jar my-app-1.0-SNAPSHOT.jar
 #CMD ["java", "Main"]
