@@ -6,5 +6,3 @@ choco install jdk8 --version 8.0.172 -y
 choco install git --version 2.17.1.2 -y
 choco install docker-for-windows --version 18.03.1.17513 -y
 choco install jenkins --version 2.89.2 -y
-#Enable hyper-v
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
