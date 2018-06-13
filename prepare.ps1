@@ -3,8 +3,6 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 #Install required app
 choco install maven --version 3.5.3 -y
 choco install jdk8 --version 8.0.172 -y
-choco install maven --version 3.5.3 -y
-choco install jdk8 --version 8.0.172 -y
 choco install git --version 2.17.1.2 -y
 choco install docker-for-windows --version 18.03.1.17513 -y
 #Pull mailhog, java images 
